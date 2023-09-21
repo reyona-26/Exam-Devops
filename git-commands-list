@@ -1,0 +1,49 @@
+Git Commands list:
+
+Initialization:
+1. git init                     # Initialize a new Git repository
+2. git clone <repository_url>   # Clone a remote repository
+
+Basic Workflow:
+3. git add <file_or_directory>  # Stage changes for commit
+4. git commit -m "Commit message" # Commit staged changes
+5. git status                   # Check repository status
+6. git log                      # View commit history
+
+Branching and Merging:
+7. git branch <branch_name>     # Create a new branch
+8. git checkout <branch_name>   # Switch to a branch
+9. git checkout -b <new_branch_name> # Create and switch to a new branch
+10. git merge <branch_name>     # Merge a branch into the current branch
+11. git branch -d <branch_name> # Delete a branch
+
+Remote Repositories:
+12. git fetch                   # Fetch changes from a remote repository
+13. git pull                    # Pull changes from a remote repository
+14. git push                    # Push changes to a remote repository
+15. git remote add <remote_name> <remote_url> # Add a remote repository
+16. git remote -v               # List remote repositories
+17. git remote rename <old_name> <new_name> # Rename a remote
+18. git remote remove <remote_name> # Remove a remote
+
+Undo and Discard:
+19. git reset --soft HEAD^      # Undo the last commit (reset to the previous commit)
+20. git checkout -- <file>      # Discard local changes (uncommitted)
+
+Additional Commands:
+21. git log --graph --oneline --all # View a concise graph of the commit history
+22. git stash                   # Temporarily save changes
+23. git stash apply             # Apply the most recent stash
+24. git diff                    # Show the difference between working directory and last commit
+25. git blame <file>            # Show who last modified each line of a file
+26. git tag                     # List and create tags
+
+GitHub-Specific:
+27. git fork                    # Create a personal copy (fork) of a GitHub repository
+28. git pull-request            # Open a pull request on GitHub
+29. git issues                  # List issues in a GitHub repository
+30. git gist                    # Manage gists (code snippets) on GitHub
+31. git actions                 # Manage GitHub Actions workflows
+32. git workflow                # Manage GitHub Workflows
+33. git secrets                 # Scan for and manage secrets in a GitHub repository
+
